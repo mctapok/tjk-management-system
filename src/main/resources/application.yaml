@@ -2,9 +2,9 @@ spring:
   application:
     name: tjk-management-system
   datasource:
-    url: jdbc:postgresql://localhost:5432/tjk_management_systeme
-    username: ${DB_USER:tracker}
-    password: ${DB_PASS:tracker}
+    url: jdbc:postgresql://localhost:5432/tjk_management_system_db
+    username: ${DB_USER:postgres}
+    password: ${DB_PASS:postgres}
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
