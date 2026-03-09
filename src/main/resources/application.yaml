@@ -25,7 +25,7 @@ server:
 
 app:
   jwt:
-    secret: ${JWT_SECRET:your-very-long-secret-key-change-in-production-min-256-bits}
+    secret: ${JWT_SECRET:exWuH1LhEo7S8UPfZeD81tPHqSW68bntzM8Dxw5NIc8=}
     expiration-ms: 86400000      # 24 часа
 
 logging:
