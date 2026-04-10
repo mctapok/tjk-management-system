@@ -12,7 +12,7 @@ import repository.UserRepository;
 @Service
 @RequiredArgsConstructor
 public class UserService implements UserDetailsService {
-    private UserRepository userRepository;
+    private final UserRepository userRepository;
 
     @Override
     @Transactional
