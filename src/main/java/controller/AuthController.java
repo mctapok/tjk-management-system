@@ -9,10 +9,11 @@ import service.AuthService;
 
 @RestController
 @AllArgsConstructor
+@RequestMapping(value = "api/v1/auth")
 public class AuthController {
     private final AuthService authService;
 
-    @PostMapping(value = "api/v1/login")
+    @PostMapping(value = "/login")
     public ResponseEntity<?> login(@RequestBody JwtRequest jwtRequest){
         String token = authService.generateAuthToken(jwtRequest);
         return ResponseEntity.ok(new JwtResponse(token));
