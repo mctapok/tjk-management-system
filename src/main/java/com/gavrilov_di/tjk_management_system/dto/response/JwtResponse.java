@@ -1,4 +1,4 @@
-package dto.response;
+package com.gavrilov_di.tjk_management_system.dto.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

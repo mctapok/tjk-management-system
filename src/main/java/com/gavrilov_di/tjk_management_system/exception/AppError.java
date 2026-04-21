@@ -1,4 +1,4 @@
-package exception;
+package com.gavrilov_di.tjk_management_system.exception;
 
 import lombok.Data;
 

@@ -1,4 +1,4 @@
-package service;
+package com.gavrilov_di.tjk_management_system.service;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
@@ -15,7 +15,7 @@ import java.util.function.Function;
 
 @Service
 public class JwtService {
-    @Value("${JWT_SECRET}")
+    @Value("${app.jwt.secret}")
     private String secret;
 
     @Value("${app.jwt.expiration-ms}")

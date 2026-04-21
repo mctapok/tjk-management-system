@@ -1,4 +1,4 @@
-package dto.request;
+package com.gavrilov_di.tjk_management_system.dto.request;
 
 import lombok.Data;
 

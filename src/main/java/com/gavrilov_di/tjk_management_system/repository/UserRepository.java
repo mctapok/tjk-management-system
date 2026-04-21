@@ -1,6 +1,6 @@
-package repository;
+package com.gavrilov_di.tjk_management_system.repository;
 
-import entity.User;
+import com.gavrilov_di.tjk_management_system.entity.User;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.Optional;

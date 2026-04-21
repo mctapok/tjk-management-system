@@ -1,6 +1,6 @@
-package entity;
+package com.gavrilov_di.tjk_management_system.entity;
 
-import enums.UserRole;
+import com.gavrilov_di.tjk_management_system.enums.UserRole;
 import jakarta.persistence.*;
 import lombok.*;
 import org.jspecify.annotations.NonNull;
